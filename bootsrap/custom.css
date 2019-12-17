@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.placeholder{
+    padding-left: 10px;
+}
+
+.navbar-brand {
+    color: #222222;
+font-family: Lato;
+font-size: 27px!important;
+font-weight: 300;
+text-transform: uppercase!important;
+    vertical-align:bottom
+}
+
+
+                                                                                                      
+.link-navigator {
+    color: #222222;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.main-background {
+    height: 665px;
+    background-image: url(img/man-index.jpg);
+    background-position: center;
+   background-size: cover;
+   background-color: #e8e8e8;
+}
+
+.main-text {
+    width: 509px;
+    margin-top: 226px;
+    border-left: 12px solid #f16d7f;;
+}
+
+.display-4 {
+    color: #222222;
+    font-family: "Lato - Black";
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 12px;
+    border-left: 12px solid #f16d7f;
+
+}
+
+.bolt {
+    font-size: 60px;
+letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+.pink {
+    color: #f16d7f;
+letter-spacing: 1px;
+    
+}
+
+
+
+.left-top {
+      background-image: url(img/two__slider/man.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+  
+    height: 33rem;
+   
+    
+   
+    
+    
+}
+
+.left-bottom {
+      background-image: url(img/two__slider/HZ.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #dadad2;
+   height: 260px;
+}
+
+.rigt-top {
+      background-image: url(img/two__slider/woman.jpg);
+        height: 260px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.white-links {
+    padding:1rem; 
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 175px;
+    background-color: #ffffff;
+   
+}
+
+.black-stabdart {
+    color: #222222;
+font-family: "Lato - Black";
+font-size: 18px;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+.assom {
+ width: 32px;
+height: 32px;
+background-color: #ffffff;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.effect_links {
+color: #b2b2b2;
+font-family: "Font Awesome";
+font-size: 16px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0.4px;
+}
+
+.assom:hover {
+    background-color: #f16d7f;
+}
+
+
+.pink-stadart {
+    color: #f16d7f;
+font-size: 30px;
+letter-spacing: 0.75px;
+}
+
+.white-links-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   width: 228px;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+.blok-fon {
+ background-image: url(img/two__slider/child.jpg);
+    margin-top: 1rem;
+    height: 542px;
+      background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.header-three {
+    text-align: center;
+}
+
+.button {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.btn-dark {
+    background-color: #f16d7f;
+}
+
+.four-slider {
+   padding-top: 5rem;
+}
+
+.dark-color {
+    background-color: #222224;
+}
+
+.card-text {
+    color: #fbfbfb;
+font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+}
+
+.card-title {
+    color: black;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+    
+}
+
+
+.container-two {
+    padding-top: 1rem;
+    
+}
+
+.three-slider {
+    padding-top: 5rem;
+}
+
+.catalog {
+    padding-top: 4rem;
+}
+
+.fon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/fifve__slider/fon__fife__slider.jpg);
+    
+}
+
+
+
+
+
+.btn {
+   
+}
+
+.super-button {
+    border-radius: 23px;
+background-color: #e1e1e1;
+    padding-left: 15px;
+    height: 46px;
+    width: 280px;
+ 
+    
+} 
+
+.led-button {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.other {
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.text_slide__five_chtoto {
+    color: #222224;
+font-family: Lato;
+font-size: 16px;
+font-style: italic;
+}
+
+.FIO {
+    color: #f16d7f;
+font-family: Lato;
+font-size: 16px;
+}
+
+.vozrast {
+    font-family: "Lato - Bold";
+letter-spacing: 0.4px;
+}
+
+.foto__woman_five__left {
+    border-radius: 100px;
+}
+
+.none-background {
+    background: none;
+}
+
+.last-slider {
+    height: 26rem;
+    
+}
+
+.prosto {
+    color: #898989;
+font-family: Lato;
+font-size: 14px;
+letter-spacing: 0.35px;
+}
+
+.jumbotron a {
+    color: #898989;
+font-family: Lato;
+font-size: 16px;
+}
+
+.last-colon {
+    height: 400px;
+        justify-content: space-between;
+}
+
+.footer {
+    height: 4rem;
+    background-color: #e6e6e6;
+}
+
+.card-img {
+    background-image: url(img/four__slider/woman_backstage.jpg);
+    background-position: auto;
+        
+}
+
+.display-5 {
+    line-height: 2rem;
+ padding-left: 3rem;
+    padding-top: 7rem;
+color: #ffffff;
+font-family: Lato;
+font-size: 54px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.small {
+    font-size: 32px;
+
+}
+
+.my-btn {
+     border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
+    
+}
+
+.btn-outline-success {
+    border-radius: 0 3px 3px 0;
+border: 1px solid #e6e6e6;
+background-color: #ffffff;
+}
+
+
+
+.dropdown {
+    border-radius: 3px 0 0 3px;
+border: 1px solid #e6e6e6;
+background-color: #cdcdcc;
+background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+}
+
+.bg-light {
+   background-color: #ffffff; 
+}
+
+.rigy-spesial-part {
+    width: 11rem;
+}
+
+.nav-item {
+    
+}
+
+.nav-link {
+    
+}
+
+.pink-button {
+    background-color: #f16d7f;
+   color:#ffffff!important;
+font-family: Lato;
+font-size: 15px;
+letter-spacing: 0.38px;
+}
+
+.right-bottom {
+    height: 33rem;
+}
+
+.blok-white {
+    padding-top: 2rem;
+}
+
+.active {
+   height: 6rem;
+}
+
+.grey {
+    color: #9f9f9f;
+font-family: Lato;
+font-size: 16px;
+letter-spacing: 0.35px;
+}
+
+.pink-price {
+    color: #f16d7f;
+font-family: Lato;
+font-size: 16px;
+text-transform: uppercase;
+    font-weight: 800;
+}
+
+.card {
+    border: none;
+}
+
+.hight-carusel {
+    height: 144px;
+}
+
+.carousel-inner {
+    width: 500px;
+    height: 171px;
+}
+
+#carouselExampleIndicators {
+    height: 171px;
+}
+
+.card:hover .card-img-top {
+  filter: brightness(50%);
+    
+}
+
+.card-title:hover {
+    color: hotpink;
+}
+
+.card-body {
+    position: relative;
+}
+
+.cart-effect {
+    width: 9rem;
+    height: 3rem;
+    position: absolute;
+    left: 4rem;
+    bottom: 13rem;
+    display: none;
+	justify-content: space-around;
+	align-items: center;
+border: 1px solid #ffffff;
+
+
+
+
+}
+.white {
+    color: white!important;
+    
+    
+}
+
+.link-kart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.card:hover .cart-effect {
+    display: flex;    
+}
