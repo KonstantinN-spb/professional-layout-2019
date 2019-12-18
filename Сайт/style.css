@@ -6,28 +6,17 @@
 font-size: 13px;
 font-weight: 400;
 }
-
-details summary {
-
-}
-
-
 .details{
     width: 243px;
     height: 37px;
-    }
-
-aside{
-  
+}
+aside {
     width: 458px;
 }
-input{
+input {
     padding: 0 20px;
 }
-
 body{font-family: 'Lato', sans-serif;}
-
-    
 header {
     width: 1150px;
     background-color: #ffffff;
@@ -38,154 +27,120 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
     border: 1px solid #ececec;   
 }
-
-.index_menu {
-   
-}
-
 .header__left {
     display: flex;
     align-items: center;
     width: 605px;
     justify-content: space-between;
 }
-
 .header__right {
     width: 188px;
     display: flex;
     justify-content: space-around;
     position: relative;
 }
-
 .logo {
-        display: flex;
+    display: flex;
     align-items: center;
-    
-    
 }
-
 .logo__brand {
-display: flex;
-padding-left: 13px;
-align-items: center;
-text-decoration: none;
-color: #222222;
-font-size: 27px;
-font-weight: 300;
-text-transform: uppercase;
-letter-spacing: 0.68px;
+    display: flex;
+    padding-left: 13px;
+    align-items: center;
+    text-decoration: none;
+    color: #222222;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.68px;
 }
-
 .header__form {
     padding-left: 32px;
  }
-
 .knopka-poiska {
     width: 403px;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 3px 0 0 3px;
-border: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
     position:relative;
-
-   
 }
-
 .center {
-padding: 0 calc(50% - 570px);
+    padding: 0 calc(50% - 570px);
 }
-
 .spisok__menu {
-list-style-type: none;
-display: flex;
-justify-content: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
-
 .text__links {
     padding: 20px;
-color: #222222;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
-text-decoration: none
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none
 }
-
 .slider__one {
     background-color: #e8e8e8;
     height: 613px;
-   
-        
 }
-
 .text__slider__one {
     background-image: url(img/man-index.jpg)
 }
-
 .fon__slide__one {
     height: 100%;
     display: flex;
     align-items: center;
-     background-image: url(img/man-index.jpg);
+    background-image: url(img/man-index.jpg);
     background-position: 0 -50px;
-    
 }
-
 .text__slder__one {
-  border-left: 12px solid #f16d7f;
+    border-left: 12px solid #f16d7f;
     padding-left: 12px;
     height: 92px;
-        
     width: 485px;
-   
-    
 }
-
 .bolt {
     color: #222222;
-font-size: 40px;
-font-weight: 400;
-text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-
 .text {
     width: 485px;
     height: 46px;
-color: #222222;
-font-size: 40px;
-font-weight: 400;
-text-transform: uppercase;
+    color: #222222;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
     
 }
-
 .bolt_text {
     height: 46px;
     width: 485px;
-font-size: 60px;
-letter-spacing: 1.5px;
+    font-size: 60px;
+    letter-spacing: 1.5px;
     margin-top: -16px
 }
-
 .knopka {
-padding: 11px;
-width: 130px;
-text-decoration: none;
-text-align: center;
-margin-left: 10px
-display: block;
-background-color: #f16d7f;
-color: #ffffff;
-font-size: 15px;
-font-weight: 400;
+    padding: 11px;
+    width: 130px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px
+    display: block;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
 
 }
-
 .korzina {
     width: 41px;
    padding:5px;
-    
 }
-
 .link-poisk {
 display: flex;
 justify-content: center;
@@ -196,57 +151,41 @@ color: #222222;
 font-size: 14px;
 font-weight: 300;
 }
-
 .text__links:hover {
-color: grey;  
+    color: grey;
 }
 .knopka-lypa {
     height: 38px;
     width: 38px;
 }
-
 .text__poiska {
     height: 34px;
     width: 283px;
     padding-left: 15px;
 }
-
-.stroka__poiska {
-  
-}
-
 .knopka-poiska:hover {
     box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
 }
-
 .text__poiska:hover {
      box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
 }
-
 .knopka-lypa:hover {
      box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
 }
-
 .knopka:hover {
      box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
 }
-
 .korzina:hover {
      box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
 }
-
 .links_menu {
-   padding: 20px;
+     padding: 20px;
     position: relative;
 }
-
 .liks__katalog_one {
-    
     height: 542px;
     background-image: url(img/two__slider/man.jpg)
-    
 }
-
 .tekst_liks__katalog {
     
     height: 65px;
@@ -254,21 +193,18 @@ color: grey;
      margin-top: 26px;
     padding-left: 19px
 }
-
 .raznye__tekst__top {
-color: #222222;
-font-size: 18px;
-font-weight: 800;
-text-transform: upper;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
-
 .raznye__tekst__bottom {
-font-size: 30px;
-letter-spacing: 0.75px;
-color: #f16d7f;
-font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    color: #f16d7f;
+    font-weight: 900;
 }
-
 .liks__katalog__two {
     height: 261px;
     background-color: #dadad2;
@@ -276,7 +212,6 @@ font-weight: 900;
     background-repeat:no-repeat;
     background-position: bottom  15px right -25px;
 }
-
 .slider__two__left {
     width: 560px;
     height: 823px;
@@ -367,7 +302,6 @@ font-size: 30px;
 font-weight: 700;
 letter-spacing: 0.75px;
 }
-
 .text__slider_three {
 color: #9f9f9f;
 font-size: 14px;
@@ -375,25 +309,21 @@ font-weight: 400;
 
 letter-spacing: 0.35px;
 }
-
 .text__primer {
 color: #222222;
 font-size: 13px;
 font-weight: 400;
 text-transform: uppercase;
 }
-
 .top__three {
     text-align: center;
 }
-
 .rice {
-color: #f16d7f;
-font-size: 16px;
-font-weight: 700;
-text-transform: uppercase;
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-
 .bottom__three {
 padding-top: 100px;         
 display: flex;
@@ -408,18 +338,14 @@ background-color: #f16d7f;
 font-size: 15px;
 font-weight: 400;
 color: #ffffff;
-    
 }
-
 .slider__three {
     height: 1000px;
 }
-
 .slider__four {
 padding-top: 115px;
 display: flex;
 }
-
 .left__four {
     background-image: url(img/four__slider/woman_backstage.jpg);
     width: 767px;
@@ -427,119 +353,100 @@ display: flex;
     padding-left: 39px;  
     display: block;
 }
-
 .right__four {
     background-color: #222224;
     width: 373px;
     height: 529px;
     display: flex;
 }
-
 .offer {
-color: #ffffff;
-font-size: 54px;
-font-weight: 700;
-text-transform: uppercase;
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-
 .for {
-color: #ffffff;
-font-size: 32px;
-letter-spacing: 0.9px;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0.9px;
 }
-
 .one__rigt__four {
-display: flex;
-width: 110px;
-flex-direction: column; 
-justify-content: space-around;
+    display: flex;
+    width: 110px;
+    flex-direction: column;
+    justify-content: space-around;
 }
-
 .button__three__browse:hover {
- box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1); 
+     box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
 }
-
 .text__four {
-   
-color: #fbfbfb;
-font-size: 14px;
-font-weight: 300;
-letter-spacing: 0.35px;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
 }
-
 .two_right_four {
-width: 219px;
-display: flex;
-flex-direction: column; 
-justify-content: space-around;
+    width: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-
 .zagolovok__four {
-color: #fbfbfb;
-font-size: 20px;
-font-weight: 700;
-letter-spacing: 0.5px;
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }
-
 .zakraska__one {
-color: #f16d7f;
-font-weight: 400;
-letter-spacing: 0.68px;
+    color: #f16d7f;
+    font-weight: 400;
+    letter-spacing: 0.68px;
 }
-
-.zakraska__two {    
-color: #222222;
-font-size: 40px;
-font-weight: 700;
-text-transform: uppercase;
-color: #f16d7f;
-letter-spacing: 1px;
+.zakraska__two {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
+    letter-spacing: 1px;
 }
-
 .zakraska__in__one__slider {
-display: flex;
-padding-top: 23px;
+    display: flex;
+    padding-top: 23px;
 }
-
 .slider__five {
-background-repeat:no-repeat;
-background-image: url(img/fifve__slider/fon__fife__slider.jpg);
-background-position: center;
-margin-top: 100px;   
+    background-repeat:no-repeat;
+    background-image: url(img/fifve__slider/fon__fife__slider.jpg);
+    background-position: center;
+    margin-top: 100px;
 }
-
 .fon__slder__fife {
-display: flex;
-height: 438px;
-flex-direction: row;
-justify-content: space-around;    
+    display: flex;
+    height: 438px;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
 .text__five__slder {
-width: 386px;
-height: 114px;
-display: flex;
-justify-content: space-between;
-flex-direction: column;  
+    width: 386px;
+    height: 114px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
-
 .stroka__poiska__five {
-width: 386px;
-display: flex;  
+    width: 386px;
+    display: flex;
 }
-
 .left__fife {
-width: 497px;
-display: flex;
-padding-top: 123px;
-justify-content:space-between;
+    width: 497px;
+    display: flex;
+    padding-top: 123px;
+    justify-content:space-between;
 }
-
 .right__five {
-width: 570px;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .right__five__part {
@@ -799,16 +706,10 @@ text-decoration: none;
 }
 
 .bottom__last__right {
-width: 524px;
-display: flex;
-justify-content: space-between;
+    width: 524px;
+    display: flex;
+    justify-content: space-between;
 }
-
-
-
-
-
-
 
 .top__last_left {
 display: flex;
@@ -1005,9 +906,8 @@ background-color: #f8f3f4;
 }
 
 .parafraf_catalog {
-    
     width: 309px;
-};
+}
 
 .one__rigt__four_catalog {
     display: flex;
@@ -1187,53 +1087,37 @@ text-transform: uppercase;
 .form_radio_group input[type=radio] {
 	display: none;
 }
-
- 
-
-}
 .form_radio_group .form_radio_group-item:last-child label {
 	border-radius: 0 6px 6px 0;
 	border-right: 1px solid #999;
 }
- 
-/* Checked */
 .form_radio_group input[type=radio]:checked + label {
 	background: #ffe0a6;
 }
- 
-
 .form_radio_group label:hover {
 	color: #666;
 }
- 
-
-
 .form_radio_group-item {
-color: #6f6e6e;
-font-size: 14px;
-font-weight: 400;
-
+    color: #6f6e6e;
+    font-size: 14px;
+    font-weight: 400;
 }
-
 .style_for_radi {
     display: flex;
     width: 176px;
     flex-wrap: wrap;
     flex-direction: row;
 }
-
 .form_radio_group {
     display: flex;
- justify-content: space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .three__podbota__producta_two {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 .chekbox_size {
     display: flex;
     flex-wrap: wrap;
@@ -1242,64 +1126,46 @@ font-weight: 400;
     height: 39px;
     
 }
-
 .size_in_catalog {
     padding-left: 10px;
     color: #6f6e6e;
-font-size: 14px;
-font-weight: 400;
-text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-
 .size_bottom {
     display: flex;
     flex-direction: row;
 }
-
 .size_top {
     display:flex;
 }
-
 .three__podbota__producta_three {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-
-
 input[type=range]::-webkit-slider-runnable-track {
-  
   height: 10px;
   cursor: pointer;
   background-color: #f16d7f;
-
-  
 }
-
-
 .sort__product {
     margin-top: 50px;
     height: 50px;
     background-color: #f3f3f3;
 }
-
 .sortirovka__spiso {
-border: 3px solid #ebebeb;
-background-color: #ffffff;
+    border: 3px solid #ebebeb;
+    background-color: #ffffff;
 }
-
 .firs__sortirova {
     height: 50px;
 }
-
 .left_sortirovka_sortirovka {
-display: flex;
-width: 282px;
+    display: flex;
+    width: 282px;
     padding-top: 15px;
-    
-    
-    
 }
 footer {
 
@@ -1409,25 +1275,18 @@ background-color: #ffffff;
 
 .category_product_choise {
     color: #232323;
-font-family: Lato;
-font-size: 14px;
-text-transform: uppercase;
-border-bottom: 1px solid #e8e8e8;;
-letter-spacing: 0.35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;;
+    letter-spacing: 0.35px;
     padding-bottom: 8px;
 }
-
-
 
 .liks_in_v_menu:hover {
     color: #f16d7f;
 }
-
-
-
 .liks_special_promo:hover {
      box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
-}
 }
 
 .liks_special_promo {
@@ -1526,10 +1385,8 @@ letter-spacing: 0.35px;
 }
 
 .drop__menu:last-of-type {
-    margin-right: 0; }
-    
+    margin-right: 0;
 }
-
 .drop__menu_last {
     right: 0;
     left: auto;
@@ -1985,42 +1842,37 @@ font-weight: 300;
 
 .price_product {
     color: #656565;
-font-family: Lato;
-font-size: 13px;
-font-weight: 400;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .free {
     color: #656565;
-font-family: Lato;
-font-size: 13px;
-font-weight: 400;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .subtotatl {
     color: #656565;
-font-family: Lato;
-font-size: 13px;
-font-weight: 400;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .total_kolichestvo {
     width: 54px;
     height: 30px;
     text-align: center;
-   
 }
 
 .left_button {
     width: 235px;
     height: 50px;
     border: 1px solid #eaeaea;
-background-color: #ffffff;
+    background-color: #ffffff;
     color: #4a4a4a;
-font-family: Lato;
-font-size: 14px;
-font-weight: 900;
-text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -2031,12 +1883,11 @@ text-transform: uppercase;
     width: 235px;
     height: 50px;
     border: 1px solid #eaeaea;
-background-color: #ffffff;
+    background-color: #ffffff;
     color: #4a4a4a;
-font-family: Lato;
-font-size: 14px;
-font-weight: 900;
-text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -2054,7 +1905,6 @@ text-transform: uppercase;
     justify-content: space-between;
     flex-direction: column;
     width: 355px;
-    
 }
 
 .bottom_part_details_product {
@@ -2066,100 +1916,80 @@ text-transform: uppercase;
 
 .shipping_adress {
     color: #222222;
-font-family: Lato;
-font-size: 16px;
-font-weight: 900;
-text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .drop_adress {
     height: 45px;
     width: 355px;
-   border: 1px solid #eaeaea;
-background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
     padding-left: 18px;
- 
 }
 
 .button_in_cart {
-        height: 45px;
- 
-   border: 1px solid #eaeaea;
-background-color: #ffffff;
-    margin-left: 
-    
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
 }
-
 .eshe_button {
     width: 100px;
     height: 35px;
     border: 1px solid #eaeaea;
-background-color: #ffffff;
+    background-color: #ffffff;
     color: #4a4a4a;
-font-family: Lato;
-font-size: 11px;
-font-weight: 700;
-text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .left_part_with_button {
     display: flex;
     justify-content: space-between;
     width: 745px;
     height: 268px;
-    
 }
-
 .cupon_discount {
     color: #222222;
-font-family: Lato;
-font-size: 16px;
-font-weight: 700;
-text-transform: uppercase;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-
 .text_cupon {
     color: #000000;
-font-family: Lato;
-font-size: 15px;
-font-weight: 500;
+    font-size: 15px;
+    font-weight: 500;
 }
-
 .for_cupon {
     height: 184px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-.product_deatol_in_cart_button {
-   
-}
-
 .last_product_button {
      border-bottom: 1px solid #eaeaea;
 }
 
 .small_subtotal {
     color: #4a4a4a;
-font-family: Lato;
-font-size: 11px;
-font-weight: 700;
-text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
     word-spacing: 5px;
 }
 
 .big_subtotal {
-   color: #222222;
-font-family: Lato;
-font-size: 16px;
-font-weight: 700;
-text-transform: uppercase;
-color: #f16d7f;
+     color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
 }
 
 .prosto_effect_line {
@@ -2172,14 +2002,13 @@ color: #f16d7f;
     width: 273px;
     background-color: #f16d7f;
     color: #ffffff;
-font-family: Lato;
-font-size: 16px;
-font-weight: 700;
-text-transform: uppercase;
-text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
     display: flex;
     justify-content: center;
-    ;align-items:center;
+    align-items:center;
 }
 
 .riht_part_with_button {
@@ -2193,13 +2022,11 @@ text-decoration: none;
 }
 
 .block_subtottal {
-    
     height: 42px;
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    
 }
 
 .block_in_block {
@@ -2212,10 +2039,9 @@ flex-direction: column;
 
 .big_sub {
     color: #222222;
-font-family: Lato;
-font-size: 16px;
-font-weight: 700;
-text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
     word-spacing: 5px;
 }
 
@@ -2249,30 +2075,30 @@ text-transform: uppercase;
 }
 
 .right_part_adress {
-      height: 300px;
+    height: 300px;
     width: 300px;
 }
 
 .standart {
     color: #b3b2b2;
-font-family: Lato;
-font-size: 13px;
-font-weight: 400;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .standart_bolt {
     color: #222222;
-font-family: Lato;
-font-size: 13px;
-font-weight: 800;
-text-transform: uppercase;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .register {
     color: #b3b2b2;
-font-family: Lato;
-font-size: 13px;
-font-weight: 400;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .stadart_button {
@@ -2283,92 +2109,75 @@ font-weight: 400;
     justify-content: center;
     align-items: center;
     border: 1px solid #eaeaea;
-background-color: #ffffff;
+    background-color: #ffffff;
     color: #4a4a4a;
-font-family: Lato;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-
 .katalog {
-       width: 243px;
-   
+    width: 243px;
     padding: 10px;
     display: block;
     cursor: pointer;
-    
 }
-
 .check_out {
-      padding: 30px 0 30px;
+    padding: 30px 0 30px;
     border-bottom: 1px solid #e8e8e8;;
     cursor: pointer;
-    
 }
-
 .check_out_summary {
     color: #222222;
-font-family: Lato;
-font-size: 16px;
-font-weight: 700;
-text-transform: uppercase;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
     
 }
-
 .catalog_summary {
-    
     display: flex;
-flex-direction: row-reverse;
-justify-content: space-between;
-align-items: center;
-padding-left: 10px;
-width: 243px;
-height: 37px;
-color: #ef5b70;
-font-family: Lato;
-font-size: 14px;
-font-weight: 700;
-line-height: 20px;
-text-transform: uppercase;
-border-left: 5px solid #ef5b70;  
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    width: 243px;
+    height: 37px;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-left: 5px solid #ef5b70;
 }
-
 .catalog_summary::-webkit-details-marker {
-width: 9px;
-height: 6px;
-color: #ef5b70;
-font-family: "Font Awesome";
-font-size: -14px;
-font-weight: 400;
-line-height: -19.99px;
-text-transform: uppercase;
-    
+    width: 9px;
+    height: 6px;
+    color: #ef5b70;
+    font-family: "Font Awesome";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.99px;
+    text-transform: uppercase;
 }
-
 .links_category_Catalog {
     list-style-type: none;
     padding-left: 20px;
 }
-
 .parts_adress {
     float: left;
-
     height: 394px;
 }
-
 .shipin_links {
     color: #b3b2b2;
-font-family: Lato;
-font-size: 13px;
-font-weight: 400;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
 }
-
 .forma_contact {
- width: 1140px;
-    
+     width: 1140px;
 }
-
 .parts_adress_left {
     width: 293px;
     height: 394px;
@@ -2376,7 +2185,6 @@ font-weight: 400;
     flex-direction: column;
     justify-content: space-between;
 }
-
 .parts_adress_right form le {
     width: 391px;
     height: 342px; 
@@ -2384,16 +2192,9 @@ font-weight: 400;
     flex-direction: column;
     justify-content: space-between;
 }
-
-
-
-
-
 .check_out_summary::-webkit-details-marker{
     display: none;
 }
-
-
 .main_parts {
     padding-left:35px ;
     padding-top: 40px;
@@ -2404,7 +2205,6 @@ font-weight: 400;
     padding-bottom: 98px;
     
 }
-
 .standart_button {
     width: 180px;
     height: 50px;
@@ -2413,83 +2213,68 @@ font-weight: 400;
     justify-content: center;
     text-decoration: none;
     border: 1px solid #eaeaea;
-background-color: #ffffff;
+    background-color: #ffffff;
     color: #4a4a4a;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-
 .button_with_out_border {
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     color: #222222;
-font-size: 14px;
-font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
     
 }
-
-
-
-
-
 .standart_no_bolt {
     color: #222222;
-font-size: 13px;
-font-weight: 800;
-text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
-
 .red_lost {
     color: #ff0d0d;
-font-size: 13px;
-font-weight: 400;
+    font-size: 13px;
+    font-weight: 400;
 }
-
 .parts_adress_right {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 .last_button {
     display: flex;
     justify-content: space-between;
     width: 323px;
 }
-
 .mail_and_pass {
-    
     color: #222222;
-font-size: 12px;
-font-weight: 800;
-text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
-
 .first_block {
     padding-top: 90px;
 }
-
 .radio input {
     color: #222222;
-font-size: 12px;
-font-weight: 400;
-text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-
 .dostavka {
     color: #222222;
-font-size: 12px;
-font-weight: 800;
-text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
-
 .standart_pole {
-   margin-top: 10px;
+    margin-top: 10px;
     width: 390px;
     height: 45px;
     border: 1px solid #eaeaea;
-background-color: #ffffff;
+    background-color: #ffffff;
 }
