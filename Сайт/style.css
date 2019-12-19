@@ -443,7 +443,6 @@ display: flex;
     justify-content:space-between;
 }
 .right__five {
-    width: 570px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
