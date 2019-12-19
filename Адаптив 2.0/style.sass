@@ -1,0 +1,50 @@
+*
+  margin: 0
+  padding: 0
+
+
+.navigator
+  display: flex
+  list-style-type: none
+
+.list_links
+  color: #ffffff
+  font-size: 18px
+  font-weight: 400
+  text-decoration: none
+
+
+
+.header
+  background-image: url("img/header-background.jpg")
+  background-position: center
+  background-repeat: no-repeat
+  display: flex
+  height: 60vh
+
+
+.logo
+  width: 100px
+  height: 29px
+
+
+@media (max-width: 320px)
+  .center
+    padding: 0 calc(50% - 160px)
+  .navigator
+    display: none
+
+
+@media (max-width: 767.98px)
+  .center
+    padding: 0 calc(50% - 360px)
+
+
+@media (max-width: 991.98px)
+  .center
+     padding: 0 calc(50% - 480px)
+
+@media (max-width: 1440px)
+  .center
+    padding: 0 calc(50% - 720px)
+
