@@ -176,7 +176,7 @@ font-weight: 300;
      box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
 }
 .korzina:hover {
-     box-shadow: 0 1px 1px 1px rgba(33, 33, 33, 1);
+   
 }
 .links_menu {
      padding: 20px;
@@ -2277,4 +2277,12 @@ font-weight: 300;
     height: 45px;
     border: 1px solid #eaeaea;
     background-color: #ffffff;
+}
+
+.korzina-sv:hover {
+   fill:red;
+}
+
+.korzina-sv {
+    transition: all .5s ease;
 }
