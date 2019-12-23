@@ -2,12 +2,17 @@
   margin: 0
   padding: 0
 
-.center
-  padding: 0 15px
+.first_slider
+  background-image: url("img/header-background.jpg")
+  background-repeat: no-repeat
+  height: 525px
 
 .navigator
-  display: none
+  display: flex
+  justify-content: space-between
   list-style-type: none
+  width: 860px
+  padding-left: 140px
 
 .list_links
   color: #ffffff
@@ -15,53 +20,51 @@
   font-weight: 400
   text-decoration: none
 
-.logo
-  padding-left: 140px
+
+
 
 .header
-  background-image: url("img/header-background.jpg")
-  background-position: right
-  background-repeat: no-repeat
   display: flex
-  height: 525px
+  justify-content: space-between
+  padding-top: 30px
+  padding-left: 8rem
+  padding-right: 8rem
 
 
 
-.logo
-  width: 100px
-  height: 29px
+.nav
   padding-top: 30px
 
-nav
-  padding-top: 30px
+.center
+  margin: 0 auto
 
-@media (min-width: 320px)
-  .center
-    padding: 0 calc(50% - 160px)
-  .logo
-    padding-left: 20px
+@media (max-width: 320px)
+  .navigator
+    display: none
+
+  .first_slider
+      width: 300px
+
+
+@media (max-width: 870px)
+  .first_slider
+    width: 768px
+
   .navigator
     display: none
 
 
-@media (min-width: 767.98px)
-  .center
-    padding: 0 calc(50% - 360px)
-
-  .navigator
-    display: flex
 
 
-
-@media (min-width: 991.98px)
-  .center
-     padding: 0 calc(50% - 480px)
-  .navigator
-    display: flex
-
+@media (max-width: 1100px)
+  .header
+    padding-left: 2rem
+    padding-right: 2rem
 
 @media (min-width: 1440px)
-  .center
-    padding: 0 calc(50% - 720px)
-  .navigator
-    display: flex
+  .first_slider
+    width: 1440px
+
+
+
+
