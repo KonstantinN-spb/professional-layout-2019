@@ -115,6 +115,156 @@
   margin: 0 auto;
 }
 
+.three_slider {
+  width: 1060px;
+  padding: 70px 23rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 4rem;
+}
+
+.four-slider {
+  width: 1440px;
+}
+.four-slider__top {
+  background-color: #f7f7f7;
+  display: flex;
+  padding: 70px 9rem 65px;
+  justify-content: space-between;
+}
+.four-slider__middle {
+  background-color: #008dcd;
+  padding: 50px 9rem 40px;
+  display: flex;
+}
+.four-slider__middle-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 740px;
+}
+.four-slider__telephone-number {
+  width: 391px;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.four-slider__bottom {
+  width: 1173px;
+  padding-left: 140px;
+  padding-right: 140px;
+  display: grid;
+  grid-template-rows: 170px 324px;
+  grid-template-columns: 20px 1fr 1fr 20px;
+}
+.four-slider__bottom-feedback-1 {
+  grid-row: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-columns: 160px 260px;
+  grid-template-rows: 160px auto;
+  align-self: center;
+  justify-content: center;
+}
+.four-slider__bottom-feedback-2 {
+  grid-row: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 160px 260px;
+  grid-template-rows: 160px auto;
+  align-self: center;
+  justify-content: center;
+}
+
+.feedback-foto {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.other {
+  grid-column: 2;
+  grid-row: 1;
+  padding-left: 40px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.who {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.name {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.what {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.feedback-text {
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-top: 30px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.number {
+  background-color: #008dcd;
+  border-radius: 50px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.word-feedback {
+  grid-row: 1;
+  grid-column: 2;
+  align-self: center;
+}
+
+.strelka-1 {
+  grid-row: 2;
+  grid-column: 1;
+  align-self: center;
+  height: 31px;
+}
+
+.strelka-2 {
+  grid-row: 2;
+  grid-column: 4;
+  align-self: center;
+  height: 31px;
+}
+
+.big-text {
+  font-size: 48px;
+}
+
+.text-lozung-four {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+form {
+  color: #ffffff;
+  font-weight: 400;
+}
+
 @media (max-width: 320px) {
   .content-fist-slider {
     padding-top: 350px;
@@ -161,6 +311,22 @@
 
   .adidas {
     display: flex;
+  }
+
+  .three_slider {
+    padding: 30px 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-three {
+    width: 278px;
+    height: 258px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .content-three__pic {
+    height: 188px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 870px) {
