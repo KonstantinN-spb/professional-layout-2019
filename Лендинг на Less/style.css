@@ -85,7 +85,8 @@
   color: white;
 }
 .red {
-  color: red;
+  font-size: 60px;
+  color: #cd0a2d;
 }
 .slider_two {
   background-image: url(img/Slider_two/background-2.svg);
@@ -359,9 +360,94 @@
   text-align: center;
 }
 .slider_five {
+  position: relative;
   width: 1700px;
-  height: 900px;
-  background-image: url(img/slider-five/globus.svg), url(img/slider-five/moto-five.svg), url(img/slider-five/red-block.svg), url(img/slider-five/black-fon.svg);
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: top -13px center, center bottom 10px, left 0px top 280px, top;
+  height: 818px;
+  background-color: #1a1919;
+  background-image: url(img/slider-five/globus.svg), url(img/slider-five/red-block.svg), url(img/slider-five/black-fon.svg);
+  background-size: 100%,auto,auto, auto;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top -13px center, left -72px bottom, top;
+}
+.lozung-five {
+  color: #ffffff;
+  font-size: 60px;
+}
+.slider_five__top {
+  text-align: center;
+  padding-top: 80px;
+  text-transform: uppercase;
+}
+.text-lozing-five {
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.small-text-SF {
+  color: #ffffff;
+  font-size: 29px;
+  line-height: 90%;
+  align-self: center;
+  text-align: center;
+}
+.slider_five__bottom {
+  display: grid;
+  grid-template-columns: 850px 850px;
+  padding-top: 150px;
+}
+.slider_five__left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 27px;
+  justify-self: center;
+  width: 484px;
+}
+.medium-text {
+  font-size: 55px;
+}
+.big-text-SF {
+  text-align: center;
+  color: #ffffff;
+  font-size: 75px;
+  line-height: 50%;
+}
+.text-SF {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 2;
+  text-align: center;
+  margin-top: 50px;
+}
+.medium-medium {
+  color: #ffffff;
+  font-size: 45px;
+}
+.slider_five__right {
+  width: 484px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 27px;
+  justify-self: center;
+}
+.moto-center {
+  position: absolute;
+  left: 673px;
+  top: 240px;
+}
+.slider_six {
+  padding-top: 50px;
+}
+.black {
+  color: #1a1919;
+  font-size: 68px;
+}
+.small-black {
+  color: #1a1919;
+  font-size: 18px;
+  letter-spacing: 0.5px;
 }
