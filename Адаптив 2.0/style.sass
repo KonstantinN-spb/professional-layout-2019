@@ -2,6 +2,8 @@
   margin: 0
   padding: 0
 
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap&subset=cyrillic,cyrillic-ext")
+
 .first_slider
   background-image: url("img/header-background.jpg")
   background-repeat: no-repeat
@@ -97,7 +99,7 @@
 
 .three_slider
   width: 1060px
-  padding: 70px 23rem
+  padding: 70px 2rem
   display: grid
   grid-template-columns: 1fr 1fr
   grid-template-rows: 1fr 1fr
@@ -192,7 +194,6 @@
   font-weight: 400
 
 
-
 .number
   background-color: #008dcd
   border-radius: 50px
@@ -224,6 +225,145 @@
   color: #000000
   font-size: 36px
   font-weight: 700
+
+
+
+.five-slider
+  width: 1440px
+  &__top
+    padding-top: 100px
+    height: 396px
+    background-color: #f7f7f7
+    padding-left: 6rem
+    padding-right: 6rem
+  &__top-circle
+    display: flex
+    justify-content: space-between
+
+
+  &__top-blocks
+    padding-top: 30px
+    width: 160px
+    height: 226px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    text-align: center
+
+  &__bottom
+    padding-top: 80px
+    padding-left: 6rem
+    padding-right: 6rem
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 25px 397px
+
+  &__bottom-lozung
+    grid-row: 1
+    grid-column: 1
+
+  &__bottom-threeBlock
+    justify-self: center
+    padding-top: 2rem
+    width: 332px
+    height: 400px
+    grid-row: 2
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+
+
+.six-slider
+  width: 1440px
+  padding-left: 6rem
+  padding-right: 6rem
+  padding-top: 6rem
+  &__top
+    padding-top: 64px
+    height: 416px
+    background-color: #d2ecf7
+    padding-left: 6rem
+    padding-right: 6rem
+  &__top-block
+    height: 225px
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    align-items: center
+    justify-content: space-between
+
+
+  &__top-block-content
+
+    width: 558px
+    height: 64px
+    border-radius: 200px
+    background-color: #ffffff
+    align-items: center
+    font-size: 15px
+    font-weight: 400
+    padding-left: 1rem
+    display: flex
+
+
+  &__top-lozung
+    padding-bottom: 2rem
+
+summary
+  cursor: pointer
+  &::-webkit-details-marker
+    display: none
+
+
+details summary:after
+  content: "▼"
+  padding-left: 30rem
+  width: 17px
+  height: 10px
+  color: #ef5b70
+
+
+
+
+
+
+.spesial-revers
+    display: flex
+    flex-direction: row-reverse
+    justify-content: space-between
+    align-items: center
+
+.bottom-threeBlock-cirkle
+  width: 160px
+  height: 160px
+  background-color: #f7f7f7
+  border-radius: 100px
+  justify-content: center
+  display: flex
+
+.medium-button
+  text-decoration: none
+  padding: 20px 100px
+  color: #ffffff
+  font-size: 11px
+  font-weight: 700
+  text-transform: uppercase
+  border-radius: 30px
+  background-color: #008dcd
+
+
+.top-circle-white
+  width: 160px
+  height: 160px
+  background-color: #ffffff
+  border-radius: 100px
+  display: flex
+  justify-content: center
+
+
+
+
 
 form
   color: #ffffff
@@ -274,10 +414,6 @@ form
 
     &__pic
       height: 188px
-
-
-
-
 
 
 @media screen and  (min-width: 321px) and (max-width: 870px)
@@ -344,7 +480,19 @@ form
   .two-slider
     height: 336px
     width: 770px
-  
+
+  .three_slider
+    width: 641px
+    padding: 40px 2rem
+    grid-gap: 1rem
+
+  .content-three
+    width: 281px
+    height: 268px
+
+  .content-three__pic
+    width: 281px
+    height: 190px
 
 @media (min-width: 1440px)
   .first_slider
